@@ -46,6 +46,9 @@ img {
         justify-content: space-between;
     }
 }
+.header__logo {
+    width: 30rem;
+}
 .navegacion {
     display: flex;
     gap: 2rem;
@@ -69,6 +72,40 @@ img {
 .navegacion__enlace:hover {
     background-color: var(--primary);
 }
-.header__logo {
-    width: 30rem;
+
+.modelo {
+    color: var(--blanco);
+    margin-top: 5rem;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .modelo {
+        text-align: left;
+        width: 50%;
+    }
+}
+.modelo__nombre {
+    font-size: 8rem;
+}
+.modelo__precio {
+    font-size: 6rem;
+    color: var(--primary);
+    font-weight: 900;
+    line-height: 0;
+}
+.modelo__enlace {
+    margin-top: 2rem;
+    text-decoration: none;
+    padding: 1rem 5rem;
+    border: 2px solid var(--primary);
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+.modelo__enlace:hover {
+    background-color: var(--primary);
+    
 }
