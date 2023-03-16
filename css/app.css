@@ -265,6 +265,9 @@ img {
     .blog__grid {
         grid-template-columns: repeat(4, 1fr);
     }
+    .blog__grid--pagina {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 .entrada__contenido {
     padding: 2rem;
@@ -358,6 +361,8 @@ img {
     .nosotros__grid {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
-        
+
     }
 }
+
+
