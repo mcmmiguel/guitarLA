@@ -298,3 +298,10 @@ img {
     background-color: var(--primary);
     color: var(--blanco);
 }
+.entrada__texto {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    font-size: 1.6rem;
+}
